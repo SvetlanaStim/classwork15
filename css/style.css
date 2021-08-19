@@ -1,0 +1,36 @@
+.logo {
+    width: 4rem;
+    height: auto;
+}
+.blue {
+    background-color: rgb(199, 233, 255);
+}
+.icons {
+    width: 2rem;
+    height: auto;
+}
+.logo-grey {
+    width: 6rem;
+    height: auto;
+}
+.icons-little {
+    width: 1.2rem;
+}
+.bg-grey {
+    background-color: rgb(200, 200, 200);
+}
+select.form-select option {
+    position: relative;
+}
+select.form-select option[value="1"]::before {
+    position: absolute;
+
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/baby.svg);
+    background-size: contain;
+}
+select.form-select option[value="2"] {
+    background-image: url(../img/home.svg);
+}
